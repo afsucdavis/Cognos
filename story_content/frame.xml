@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111100111" font="Open Sans" controllayout="npnxnanbsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns10111100111" font="Open Sans" controllayout="pxabnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npxnabnsnfns10111100111" font="Open Sans" controllayout="npxnabnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npnxnanbnsnfns10111100111" font="Open Sans" controllayout="npnxnanbnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns10111100110" font="Open Sans" controllayout="pxabnsnfns10111100110" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npnxnanbnsnfns00001100111" font="Open Sans" controllayout="npnxnanbnsnfns00001100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns00001100111" font="Open Sans" controllayout="pxabnsnfns00001100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="UCPath - Cognos Reporting Tool" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkleft" />
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001100111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001100111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5obfQIbbLi9" displaytext="Cognos Reporting System" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5obfQIbbLi9.5nBw2PwoSdz" displaytext="Intro Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6ZZobH7Ofz0" displaytext="Table of Contents" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5zBRkBMhLtO" displaytext="Cognos Reports" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6kwVuyOyvQD" displaytext="Hints" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6KQ5muTlmwC" displaytext="Searching Using the Team Content Folder" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6C3jb5u92nb" displaytext="The Search Function" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6qnlIoLFAOW" displaytext="Running Reports" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6WXMlN4Ja5h" displaytext="Set Report as Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5cLuqKbSvcy" displaytext="Subscribe" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6d5EiEucREe" displaytext="Contact Us" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6ST0yWHzUoQ" displaytext="Exit Course" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5obfQIbbLi9.5nBw2PwoSdz" slidebank="false" type="slide"> start  start  start  start  start  start   cognos reports interface walkthrough ucdrpt101</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6ZZobH7Ofz0" slidebank="false" type="slide">     navigate to cognos   user interface   search reports    run reports   table of contents        download the course companion to follow along this module is approximately  10 minutes long        </slidetext>
+      <slidetext slideid="5obfQIbbLi9.5zBRkBMhLtO" slidebank="false" type="slide">%project.slidenumber% of %project.totalslides% reports from  ucpath data          </slidetext>
+      <slidetext slideid="5obfQIbbLi9.6Uy1iYfj5yk" slidebank="false" type="slide">  01 the cognos interface</slidetext>
+      <slidetext slideid="5obfQIbbLi9.67fbRfdFeaI" slidebank="false" type="slide">%project.slidenumber% of %project.totalslides%  ucpath.ucdavis.edu  username ********* </slidetext>
+      <slidetext slideid="5obfQIbbLi9.66vxJKjXs4e" slidebank="false" type="slide">  home search my content team content recently viewed %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6EfNJNHvc2K" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5oNwFU0Bj8x" slidebank="false" type="slide">  these are example of reports %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6kwVuyOyvQD" slidebank="false" type="slide">   hints and tips for using cognos reports %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6KQ5muTlmwC" slidebank="false" type="slide">  02 searching using the  team content folder</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5ru59YgyC0K" slidebank="false" type="slide">  your cognos security level will  determine the reports that you have access to team content %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5ghuJokyAPO" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6nfiAQzLERg" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5VNvCX8wLu2" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5jXHz1nagca" slidebank="false" type="slide">  tip           %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5azeRsfgzEf" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6M5d7blMNxL" slidebank="false" type="slide">   %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.654QD3CygVx" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6C3jb5u92nb" slidebank="false" type="slide">  04 the search function</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6H7EdoLsPPX" slidebank="false" type="slide">  search %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6nyCBCVAgIx" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.63CxU0gM84x" slidebank="false" type="slide"> type " payroll" %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5bS6DAF9OMt" slidebank="false" type="slide">%project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5rgAmVmeA10" slidebank="false" type="slide">   icons in cognos report shortcut list of icons (pdf) used in cognos  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.62ZLsXKnZQx" slidebank="false" type="slide">    %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6XIL1iGHN4e" slidebank="false" type="slide">               %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5Ymcs8uel8e" slidebank="false" type="slide">                %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5wHxNyt2OMD" slidebank="false" type="slide">   save your search for future reference  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6W0lSXiOAol" slidebank="false" type="slide">   %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6qnlIoLFAOW" slidebank="false" type="slide">  05 running reports</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5ziTJd6dKo4" slidebank="false" type="slide">  team content %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6OxBGOa0Lmw" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6O4985UWUw7" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6nzTbGZugu4" slidebank="false" type="slide">    %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.60Y8LN8pxvl" slidebank="false" type="slide"> control-click (pc)  or  command-click (mac)  to select multiple  filters from the list   %project.slidenumber% of %project.totalslides% </slidetext>
+      <slidetext slideid="5obfQIbbLi9.6HsvRclexwc" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6bKVeprPGCb" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides% %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6ILoSlueUaw" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6PEnyj1I3pF" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%  </slidetext>
+      <slidetext slideid="5obfQIbbLi9.6IaIqvCrA2q" slidebank="false" type="slide">%project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5We5p8jyLfS" slidebank="false" type="slide">%project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5sIjOluLgEa" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6chsCDsK4LA" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.67ZaUSrRKB9" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6TN1EDgtE9j" slidebank="false" type="slide">   %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5Xclcmn30Q4" slidebank="false" type="slide"> %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.63prCMPuqQj" slidebank="false" type="slide">  report default is  html %project.slidenumber% of %project.totalslides%   </slidetext>
+      <slidetext slideid="5obfQIbbLi9.5ye56MFrvYE" slidebank="false" type="slide">  run as a pdf if you want to print the report %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6rUUNTNSOxs" slidebank="false" type="slide">  run excel= view only run excel data = excel functionality %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6HoJwFhqMJE" slidebank="false" type="slide">  run the report again %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.68ZRVLuF5Iy" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6WXMlN4Ja5h" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6l8pjtCDrTN" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5beK81EubIB" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5cLuqKbSvcy" slidebank="false" type="slide">  %project.slidenumber% of %project.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6d5EiEucREe" slidebank="false" type="slide"> ucpath.ucdavis.edu ucpath.ucdavis.edu   contact us       ucpath@ucdavis.edu ucpath@ucdavis.edu %project.slidenumber% of %project.totalslides%     ucpath training materials ucpath training materials  you may also be interested in these courses: upcoming changes: funding &amp; salary cost transfers funding entry inquiry overview of funding in ucpath salary cost transfers/direct retro   </slidetext>
+      <slidetext slideid="5obfQIbbLi9.6ST0yWHzUoQ" slidebank="false" type="slide"> exit course exit course exit course restart course restart course restart course you’ve completed this course</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://ucdavis.box.com/s/qrzi55gfhgjbv2bmgilekkemxgn7jngc" image="story_content/url.png" title="Cognos Reports Course Companion" />
+      <resource url="https://ucdavis.box.com/s/rmvd4cciqczksc2kdwioswtlidyulzzv" image="story_content/url.png" title="Cognos Icons" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5obfQIbbLi9.6ZZobH7Ofz0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Welcome to the UCPath training on the Cognos Report system.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;We will cover the topics displayed on this screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;You can jump to a specific section of this module by clicking the menu link at the top left of the screen to open then menu, and then selectg  the slide you would like to view.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;If you wish to view the closed captions for this training module, click the speech bubble icon at the bottom of the player.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;We have added files relevant to this training under the Resources link.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;If you&amp;#39;d like to take notes, please download and print this Course Companion.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;At times during this training, we may ask you to click an object on the screen to trigger an action, or click the next button to advance the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Click next when you are ready to get started.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5zBRkBMhLtO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt; &lt;br&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this module,we will cover the basics of the Cognos Reporting Tool.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Cognos is an IBM tool the enables UC Davis to provide reports from UCPath system.  &lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Cognos is a web-based application that you access via your favorite browser, such as Internet Explorer, Chrome  or Firefox.  &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.67fbRfdFeaI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;To access the  Cognos system,  open your  browser, and then go to ucpath.ucdavis.edu. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click on quick links  at the top right of the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Once you are on the Cognos screen, please enter your usual network username and password, and click sign in.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.66vxJKjXs4e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is your Cognos homepage. We’ll start with the Navigation Panel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;which is located on the left side of the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Home button returns to this page.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Search button allows you to search for reports using keywords, such as part to the report title.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;My content holds your saved reports, so you can easily access reports that are relevant to you.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Team content shows all reports that are available to you.  The UCPath reports are organized by categories that you can browse by topic area.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Recently Viewed button, which looks like a clock, displays the reports that you most recently accessed. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6EfNJNHvc2K" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The area highlighted in yellow is the main stage where the reports are displayed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5oNwFU0Bj8x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; If you have multiple report views open, you can switch between the reports on the Welcome drop-down menu.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Expand the Welcome menu, then select the report you want to view.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can also close reports or return to the home page from the Welcome menu. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6kwVuyOyvQD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Depending on your settings, teal dots may appear on your home page.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;These dots represent hints or tips for using Cognos Reports. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; You can disable these hints in your Cognos preferences. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5ru59YgyC0K" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now let’s take a closer look at the Team Content function.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This folder contains a variety of reports. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please notice that your Cognos security may not grant access to all reports. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Your list may be different than the example shown  in this training.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5ghuJokyAPO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe there is a  folder titled  UCPath Reporting, click to view the reports.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please note that we are using this folder for training purposes, you may see something slightly different in the production Cognos system.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6nfiAQzLERg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Once you’ve clicked  are into the main folder, the available reports are divided  into sub-folders by category.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click a folder to view the reports that it holds.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5VNvCX8wLu2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;A list of reports is displayed on the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5jXHz1nagca" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Y&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;ou can resize the navigation pane by dragging the beige vertical line if you cannot see the full titles in the list. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5azeRsfgzEf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The default display sorts the results in alphabetical order.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; You can click the &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;Sort &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;button to change the display order to sort by Name or by the Modified date &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6M5d7blMNxL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can use the breadcrumbs to navigate up the folder hierarchy, click on the Folder button to jump to a specific level, or click the Previous button to navigate up &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.654QD3CygVx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;Team content  &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;icon to close it or any other icon to navigate away from the current view. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6H7EdoLsPPX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now let’s take a closer look at the Cognos search function.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6nyCBCVAgIx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can find reports in Cognos by searching with keywords or by browsing the folders. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the magnifying glass icon to enable the search panel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.63CxU0gM84x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Enter a keyword in the search field.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When typing in the Search field, Cognos displays a dynamic list of objects that have the keyword in the title of your search.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5bS6DAF9OMt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can pick an object from the list or press Enter to complete the search. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5rgAmVmeA10" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Note that your results display different icons at the left. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This icon represents a report, while this one indicates that it is a shortcut to the report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can view a list of icons used throughout Cognos by clicking the onscreen link. The PDF is also available under the resources link at the top of the player.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click to continue.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.62ZLsXKnZQx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If the search returns a large list of search Results, then you can filter the results by &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;clicking  the filter icon, which looks like a funnel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6XIL1iGHN4e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The filter panel opens up, and you can filter by type, such as reports,dashboards, data and folders.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; Or, by date modified. Your choices are all, today, yesterday, past week and past month.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5Ymcs8uel8e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the clear all link to deselect all filters.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5wHxNyt2OMD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Users can &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;save search criteria &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;for future use by clicking the &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;Save Search &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;After you save a search, a confirmation message will appear on the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The next time you go to Search, your saved item will display on the search screen under the title Saved Searches.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6W0lSXiOAol" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you want to remove an item from your saved searches, hover over the icon to enable an X button. Click the X to remove the item.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5ziTJd6dKo4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;To run a report, start by click the team content folder.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6OxBGOa0Lmw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;For this example,we will run the Leave Accrual and Balances Summary Report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This report lives in the Absence Management sub-folder .&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6O4985UWUw7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;After you click on the report name, the prompts page opens up.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Here you can  define the specifications of your report by selecting  filters on each prompt box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6nzTbGZugu4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; Observe that for some prompt boxes a selection is required, as indicated on the box header. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You will see the word required with an asterisk for any prompt you must fill in before continuing.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.60Y8LN8pxvl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; When you are selecting the items within a given prompt box, you can select or deselect all filters.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can also select items from the list by control-click on each individual item they wish to select. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6ILoSlueUaw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you would like to clear all selections, and start over, choose the link at the bottom of the screen called “clear all selections”.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6PEnyj1I3pF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Submit button will be grayed out until you select a criteria for  all  of the required fields.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this example, now that all the report parameters have been entered,we can proceed by clicking the submit button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6IaIqvCrA2q" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The system will then display a message like the one on the screen while running the report. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5We5p8jyLfS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Here is the report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s take a look at the options we have on this screen. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5sIjOluLgEa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Keep in mind that the report is going to display 25 data rows at a time.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; To view more data, scroll down the page and use the navigation links to load more results. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Bottom link takes the user to the last page of the report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6chsCDsK4LA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice the save icon at the top of the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When you click it, the “Save report as report view” is displayed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.67ZaUSrRKB9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click it to display a dialog box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6TN1EDgtE9j" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Here you can rename the report, and choose the location where you would like to save it within the Cognos system.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The report will be saved to the My Content folder.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click OK when you are done.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5Xclcmn30Q4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The run button provides with different options for the types of outputs  for your report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.63prCMPuqQj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The default output format is  &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;HTML&lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;, which is the web version you see on screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can also send the report to a file in  Excel, CSV or PDF formats.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5ye56MFrvYE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you wish to print the report, first save it as a PDF, and then use the print function on the PDF file.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6rUUNTNSOxs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Excel and  Excel data option both provide your report for viewing in Excel.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;However the Excel data version will normalize the data so that information displayed in chart view will instead be displayed in one row.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This makes it easier to analyze and filter your results in Excel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6HoJwFhqMJE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you wish to re-run the report, this option takes you to the prompt page where you can reconfigure the prompts to run the report again.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.68ZRVLuF5Iy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The “more” menu enable when you click the dot dot dot  icon at the top of the screen provides a few more options.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6WXMlN4Ja5h" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can set a report as home, meaning that the report will display on your homepage as soon as you enter the Cognos system.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is great when there is a report that you frequently run.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6l8pjtCDrTN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Share provides a link to the report which you can send to other Cognos users.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Their ability to see this report will depend on their security access to the Cognos system.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5beK81EubIB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The embed function provides code to display the report on a webpage.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5cLuqKbSvcy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;And subscribe allows you to schedule how often you would like the system to send you the report. for example, you could subscribe to a report that you run every week,and you will receive an email with a notification for that report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This concludes the Cognos Interface Walkthrough module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please click to continue.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6d5EiEucREe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Thank you for watching the Cognos Reporting training module.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please click on the Recourses link to download a copy of the quick reference guide of Cognos.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Visit the UC Davis UC Path website for more training resources and job aids.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you have questions or suggestions, please drop us an email at ucpath@ucdavis.edu.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click next to close the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
